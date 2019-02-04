@@ -10,4 +10,4 @@ Este é um aplicativo voltado para a criação e gerenciamento de convites para 
 **Banco de Dados:** Microsoft SQL Server (local, sqlexpress), InMemoryDatabase *(para testes das API's)*
 
 ### Esquema inicial do banco de dados
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Diagrama Banco](https://github.com/heltonmpereira/MeuConvite/blob/master/BancoDados/MeuConviteDb_SchemaInicial.png)
