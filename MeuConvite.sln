@@ -15,7 +15,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuConvite.Modelo", "MeuCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuConvite.Teste.ConsoleApp", "MeuConvite.Teste.ConsoleApp\MeuConvite.Teste.ConsoleApp.csproj", "{5A19BB49-F4B3-43BE-A3AC-87B0790DD217}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuConvite.Servidor.WebApi", "MeuConvite.Servidor.WebApi\MeuConvite.Servidor.WebApi.csproj", "{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeuConvite.Servidor.WebApi", "MeuConvite.Servidor.WebApi\MeuConvite.Servidor.WebApi.csproj", "{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{14520BBE-9912-450E-B456-868480B0DCE6}"
+	ProjectSection(SolutionItems) = preProject
+		BancoDados\Script_inicial.sql = BancoDados\Script_inicial.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

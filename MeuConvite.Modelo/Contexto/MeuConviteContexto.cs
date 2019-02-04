@@ -6,14 +6,16 @@ namespace MeuConvite.Modelo.Contexto
 {
     public class MeuConviteContexto : DbContext
     {
-        public MeuConviteContexto() { }
         public MeuConviteContexto(DbContextOptions options) : base(options) { }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            //optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MeuConviteDb;Integrated Security=True;");
-            base.OnConfiguring(optionsBuilder);
-        }
+        //Habilite esta rotina para executar as "migrations"
+        //Add-Migration ["Nome_Migration"] -Project Servidor\MeuConvite.Modelo -StartupProject Servidor\MeuConvite.Modelo
+        //public MeuConviteContexto() { }
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer(@"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=MeuConviteDb;Integrated Security=True;");
+        //    base.OnConfiguring(optionsBuilder);
+        //}
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             foreach (var property in modelBuilder.Model.GetEntityTypes()
