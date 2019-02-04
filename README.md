@@ -5,7 +5,5 @@ Este é um aplicativo voltado para a criação e gerenciamento de convites para 
 ### Ambiente de desenvolvimento
 
 **IDE:** Microsoft Visual Studio 2017
-
 **Linguagem de Programação:** Visual C#
-
 **Tecnologias utilizadas:** ASP.NET Core 2.2, Entity Framework Core, JWT
