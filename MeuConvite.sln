@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Definicao", "Definicao", "{4F8857EC-2904-4FC9-AB35-2287ABDCE0EF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Servidor", "Servidor", "{74238A9F-2917-4774-A2CC-1B552D2FA45E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Teste", "Teste", "{A190D754-B9BA-42AD-A1BB-D589C6B7BB78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuConvite.Definicao", "MeuConvite.Definicao\MeuConvite.Definicao.csproj", "{486B64EE-3E5E-4D41-AE01-F1CDA92FCB5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuConvite.Modelo", "MeuConvite.Modelo\MeuConvite.Modelo.csproj", "{CDA406EE-6177-477F-9022-78B2F92A4009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuConvite.Teste.ConsoleApp", "MeuConvite.Teste.ConsoleApp\MeuConvite.Teste.ConsoleApp.csproj", "{5A19BB49-F4B3-43BE-A3AC-87B0790DD217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuConvite.Servidor.WebApi", "MeuConvite.Servidor.WebApi\MeuConvite.Servidor.WebApi.csproj", "{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{486B64EE-3E5E-4D41-AE01-F1CDA92FCB5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{486B64EE-3E5E-4D41-AE01-F1CDA92FCB5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{486B64EE-3E5E-4D41-AE01-F1CDA92FCB5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{486B64EE-3E5E-4D41-AE01-F1CDA92FCB5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDA406EE-6177-477F-9022-78B2F92A4009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDA406EE-6177-477F-9022-78B2F92A4009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDA406EE-6177-477F-9022-78B2F92A4009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDA406EE-6177-477F-9022-78B2F92A4009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A19BB49-F4B3-43BE-A3AC-87B0790DD217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A19BB49-F4B3-43BE-A3AC-87B0790DD217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A19BB49-F4B3-43BE-A3AC-87B0790DD217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A19BB49-F4B3-43BE-A3AC-87B0790DD217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{486B64EE-3E5E-4D41-AE01-F1CDA92FCB5C} = {4F8857EC-2904-4FC9-AB35-2287ABDCE0EF}
+		{CDA406EE-6177-477F-9022-78B2F92A4009} = {74238A9F-2917-4774-A2CC-1B552D2FA45E}
+		{5A19BB49-F4B3-43BE-A3AC-87B0790DD217} = {A190D754-B9BA-42AD-A1BB-D589C6B7BB78}
+		{8A7B164F-1B67-4E60-B7CB-40D4B4ABE92D} = {74238A9F-2917-4774-A2CC-1B552D2FA45E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0B70CCD-5F8D-4A69-BD34-649B88AE6CF1}
+	EndGlobalSection
+EndGlobal
